@@ -9,10 +9,13 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js" defer></script>
 	<script src="./js/tabs.js" defer></script>
 	<script src="./js/modal.js" defer></script>
 	<script src="./js/menu.js" defer></script>
 	<script src="./js/accordeon.js" defer></script>
+	<script src="./js/timer.js" defer></script>
+	<script src="./js/scroll.js" defer></script>
 </head>
 
 <body>
@@ -160,7 +163,7 @@
 						Примеры цен на разработку</h2>
 					<ul class="feature-list">
 						<li class="feature__item">
-							<button type="button" class="feature__link feature__link_active">
+							<button type="button" class="feature__link">
 								<div class="feature-item-wrap">
 									<span class="feature-item__title">
 										Одностраничные сайты
@@ -168,7 +171,7 @@
 								</div>
 							</button>
 							<!-- /.feature__link -->
-							<ul class="feature-sub">
+							<ul class="feature-sub hidden">
 								<li class="feature-sub__item">
 									<span class="feature-sub__name">
 										Правки по вашему сайту
@@ -313,7 +316,7 @@
 	<!-- /.timer start-->
 	<div class="timer">
 		<p class="timer__text">до 31 марта скидка 20% на все услуги</p>
-		<p class="timer__time">21:13:33</p>
+		<p class="timer__time"></p>
 	</div>
 	<!-- /.timer -->
 
